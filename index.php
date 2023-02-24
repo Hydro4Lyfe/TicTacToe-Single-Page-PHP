@@ -71,7 +71,7 @@ else
         <?php if ($GLOBALS['done'] == true) { ?>
         <div style="display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
             <h1><?php echo $GLOBALS['winningMessage']; ?></h1>
-            <a href="/tictactoe1">Play Again!</a>
+            <a href=".">Play Again!</a>
         </div>
         <?php } ?>
         <table style="margin: 25px;">
